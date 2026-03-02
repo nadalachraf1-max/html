@@ -1,23 +1,28 @@
-/* Style 1: لون أحمر */
-.style1 {
-    color: red;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Dev Lab1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-/* Style 2: أخضر + 16px + Bold + Cambria */
-.style2 {
-    color: green;
-    font-size: 16px;
-    font-weight: bold;
-    font-family: Cambria, serif;
-}
+<body>
 
-/* Style 3: حجم خط 14px */
-.style3 {
-    font-size: 14px;
-}
+    <h1>Welcome to my Web Site</h1>
 
-/* Style 4: صورة 250x250 */
-.style4 {
-    width: 250px;
-    height: 250px;
-}
+    <h3 class="style1">Web Development (Lab1)</h3>
+
+    <p class="style2">Full name: hidaya lachraf</p>
+
+    <p class="style3">Age: 20 years old</p>
+
+    <p class="style3">Class: 2nd LMD Computer Science</p>
+
+    <p class="style3">University: University of El Oued</p>
+
+    <br>
+
+    <img src="yu.jpg" alt="My Image" class="style4">
+
+</body>
+</html>
