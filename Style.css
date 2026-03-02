@@ -1,31 +1,31 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Web Dev Lab1</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+body{
+    margin:60px;
+}
+.style1 {
+    color: red;
+}
+container{
+    display:flex;
+    justify-content:space-between;
+    margin-top:40px;
+}
 
-<body>
-<center>
-    <h1>Welcome to my Web Site</h1>
+/* Style 2 */
+.style2 {
+    color: green;
+    font-size: 16px bold;
+    font-family: Cambria,
+}
 
-    <b3 class="style1"><u>Web Development (Lab1)</u></b3>
-</center>
-<br>
-<div class="container">
-<div>
-    <p class="style3"><b class="style2">Full name:</b> hidaya lachraf</p>
+/* Style 3 */
+.style3 {
+    font-size: 14px;
+}
 
-    <p class="style3"><b class="style2">Age:</b> 20 years old</p>
+/* Style 4 */
+.style4 {
+    width: 250px;
+    height: 250px;
+}
 
-    <p class="style3"><b class="style2">Class:</b> 2<sup>nd</sup> LMD Computer Science</p>
-
-    <p class="style3"><b class="style2">University:</b> University of El Oued</p>
-
-    </div>
-
-    <img src="yu.jpg" alt="My Image" class="style4">
- </div>
-</body>
-</html>
+}
