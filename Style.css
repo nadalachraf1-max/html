@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Web Dev Lab1</title>
@@ -7,22 +7,25 @@
 </head>
 
 <body>
-
+<center>
     <h1>Welcome to my Web Site</h1>
 
-    <h3 class="style1">Web Development (Lab1)</h3>
+    <b3 class="style1"><u>Web Development (Lab1)</u></b3>
+</center>
+<br>
+<div class="container">
+<div>
+    <p class="style3"><b class="style2">Full name:</b> hidaya lachraf</p>
 
-    <p class="style2">Full name: hidaya lachraf</p>
+    <p class="style3"><b class="style2">Age:</b> 20 years old</p>
 
-    <p class="style3">Age: 20 years old</p>
+    <p class="style3"><b class="style2">Class:</b> 2<sup>nd</sup> LMD Computer Science</p>
 
-    <p class="style3">Class: 2nd LMD Computer Science</p>
+    <p class="style3"><b class="style2">University:</b> University of El Oued</p>
 
-    <p class="style3">University: University of El Oued</p>
-
-    <br>
+    </div>
 
     <img src="yu.jpg" alt="My Image" class="style4">
-
+ </div>
 </body>
 </html>
